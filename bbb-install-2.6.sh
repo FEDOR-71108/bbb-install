@@ -48,7 +48,7 @@ OPTIONS (install BigBlueButton):
 
   -v <version>           Install given version of BigBlueButton (e.g. 'focal-260') (required)
 
-  -s <hostname>          Configure server with <hostname>
+  -s <hostname>          Configure server with <fplotnikov - test.ru>
   -e <email>             Email for Let's Encrypt certbot
 
   -x                     Use Let's Encrypt certbot with manual dns challenges
