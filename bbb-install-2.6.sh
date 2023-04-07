@@ -1,37 +1,7 @@
-#!/bin/bash -e
 
-# Copyright (c) 2022 BigBlueButton Inc.
-#
-# This program is free software; you can redistribute it and/or modify it under the
-# terms of the GNU Lesser General Public License as published by the Free Software
-# Foundation; either version 3.0 of the License, or (at your option) any later
-# version.
-#
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+  Install BigBlueButton 2.6.x with a SSL certificate from Let's Encrypt using hostname bbb.example.com
+  and email address info@example.com and apply a basic firewall
 
-# BigBlueButton is an open source conferencing system. For more information see
-#    https://www.bigbluebutton.org/.
-#
-# This bbb-install-2.6.sh script automates many of the installation and configuration
-# steps at https://docs.bigbluebutton.org/2.6/install.html
-#
-#
-#  Examples
-#
-#  Install BigBlueButton 2.6.x with a SSL certificate from Let's Encrypt using hostname bbb.example.com
-#  and email address info@example.com and apply a basic firewall
-#
-#    wget -qO- https://ubuntu.bigbluebutton.org/bbb-install-2.6.sh | bash -s -- -w -v focal-260 -s bbb.example.com -e info@example.com 
-#
-#  Install BigBlueButton with SSL + Greenlight
-#
-#    wget -qO- https://ubuntu.bigbluebutton.org/bbb-install-2.6.sh | bash -s -- -w -v focal-260 -s bbb.example.com -e info@example.com -g
-#
 
 usage() {
     set +x
