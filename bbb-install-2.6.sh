@@ -48,7 +48,7 @@ OPTIONS (install BigBlueButton):
 
   -v <version>           Install given version of BigBlueButton (e.g. 'focal-260') (required)
 
-  -s <hostname>          Configure server with <hostname>
+  -s <fplotnikov-test.ru>          Configure server with <hostname>
   -e <email>             Email for Let's Encrypt certbot
 
   -x                     Use Let's Encrypt certbot with manual dns challenges
@@ -56,7 +56,7 @@ OPTIONS (install BigBlueButton):
   -g                     Install Greenlight version 3
   -k                     Install Keycloak version 20
 
-  -c <hostname>:<secret> Configure with coturn server at <hostname> using <secret> (instead of built-in TURN server)
+  -c <fplotnikov-test.ru>:<secret> Configure with coturn server at <fplotnikov-test.ru> using <secret> (instead of built-in TURN server)
 
   -m <link_path>         Create a Symbolic link from /var/bigbluebutton to <link_path> 
 
@@ -75,15 +75,9 @@ OPTIONS (install BigBlueButton):
 
 OPTIONS (install Let's Encrypt certificate only):
 
-  -s <hostname>          Configure server with <hostname> (required)
-  -e <email>             Configure email for Let's Encrypt certbot (required)
-  -l                     Only install Let's Encrypt certificate (not BigBlueButton)
-  -x                     Use Let's Encrypt certbot with manual dns challenges (optional)
+  -s <fplotnikov-test.ru>          Configure server with <hostname> (required)
+  
 
-OPTIONS (install Greenlight only):
-
-  -g                     Install Greenlight version 3 (required)
-  -k                     Install Keycloak version 20 (optional)
 
 EXAMPLES:
 
